@@ -26,9 +26,5 @@ fs.unlink('./satinder/mybio.txt', () => {
     console.log("file has deleted");
 });
 
-//crud opertion
-//dhhhdjkfjdjvnsvndnkkjgggjjjggg
-//kjjjjjjjjjjjjjjj
 
 
-console.log("hello");
