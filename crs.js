@@ -146,3 +146,16 @@
 // server.listen(3000,'localhost', () => {
 //     console.log('server is listening')
 // })
+
+
+const express = require('express');
+const app = express();
+
+
+app.get('/',(req, res) =>{
+    res.sendFile('./serverview/about',{root:__dirname});
+})
+
+app.listen(3000,() => {
+    console.log('server is listening good');
+});
